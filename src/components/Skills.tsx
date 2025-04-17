@@ -1,6 +1,7 @@
 
 import React from "react";
 import { Progress } from "@/components/ui/progress";
+import { cn } from "@/lib/utils";
 
 const Skills = () => {
   const technicalSkills = [
@@ -46,7 +47,10 @@ const Skills = () => {
                     <span className="font-medium text-gray-700">{skill.name}</span>
                     <span className="text-polygon-primary font-medium">{skill.percentage}%</span>
                   </div>
-                  <Progress value={skill.percentage} className="h-2 bg-gray-200" indicatorClassName="bg-polygon-primary" />
+                  <Progress 
+                    value={skill.percentage} 
+                    className="h-2 bg-gray-200" 
+                  />
                 </div>
               ))}
             </div>
