@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="md:col-span-7 space-y-6 animate-fade-in">
           <p className="text-polygon-primary font-medium">Hello, I'm</p>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-polygon-secondary">
-            Nuhin Chowdhury
+            Nazmus Saadat
           </h1>
           <h2 className="text-2xl md:text-3xl text-gray-700">
             Lead Software Engineer at{" "}
@@ -50,7 +50,7 @@ const Hero = () => {
               <Github size={24} />
             </a>
             <a
-              href="https://www.linkedin.com/in/nuhin-chowdhury/"
+              href="https://www.linkedin.com/in/nuhin13/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-polygon-primary transition-colors"
@@ -72,7 +72,7 @@ const Hero = () => {
             <div className="absolute -inset-1 bg-gradient-to-r from-polygon-primary to-polygon-accent rounded-full blur opacity-30"></div>
             <div className="relative h-72 w-72 md:h-96 md:w-96 mx-auto overflow-hidden rounded-full border-4 border-white shadow-xl">
               <img
-                src="https://firebasestorage.googleapis.com/v0/b/nuhinbd.appspot.com/o/images%2Fprofile.png?alt=media&token=a9b0ee1f-9e46-46c5-93dc-10fd628cdf01"
+                src="https://avatars.githubusercontent.com/u/10963861?v=4"
                 alt="Nuhin Chowdhury"
                 className="h-full w-full object-cover"
               />
