@@ -13,7 +13,7 @@ const About = () => {
           </h2>
           <div className="w-20 h-1 bg-polygon-primary mx-auto mb-8"></div>
           <p className="max-w-3xl mx-auto text-gray-600">
-            Get to know me better, my professional journey, and what drives me in the world of blockchain technology.
+            Get to know me better, my professional journey, and what drives me in the world of Software Engineer.
           </p>
         </div>
 
@@ -27,7 +27,7 @@ const About = () => {
                 As a Lead Software Engineer at Polygon Technology, I bring over 8 years of software development experience with a deep focus on blockchain technology, Web3, and decentralized applications. My journey in the tech space has been driven by a passion for innovation and creating solutions that push the boundaries of what's possible.
               </p>
               <p>
-                I have a Master's degree in Computer Science and Engineering from BUET, where I specialized in distributed systems. This academic foundation, combined with my hands-on experience, has allowed me to develop a unique perspective on building robust and scalable applications.
+                I have a Master's degree in Computer Science and Engineering from KU (Khulna University), where I specialized in distributed systems. This academic foundation, combined with my hands-on experience, has allowed me to develop a unique perspective on building robust and scalable applications.
               </p>
               <p>
                 Outside of work, I enjoy contributing to open-source projects and writing technical articles to share knowledge with the developer community. I'm passionate about mentoring junior developers and helping to build the next generation of blockchain engineers.

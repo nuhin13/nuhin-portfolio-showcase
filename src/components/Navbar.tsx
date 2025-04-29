@@ -45,8 +45,8 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex justify-between items-center px-4 md:px-6">
         <a href="#home" className="flex items-center">
-          <span className="text-2xl font-bold text-polygon-primary">Nuhin</span>
-          <span className="text-2xl font-bold text-polygon-secondary">.dev</span>
+          <span className="text-2xl font-bold text-polygon-primary">Nuhin13</span>
+          <span className="text-2xl font-bold text-polygon-secondary">.com</span>
         </a>
 
         {/* Desktop Navigation */}
