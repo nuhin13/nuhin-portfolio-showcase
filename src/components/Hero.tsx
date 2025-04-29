@@ -18,10 +18,14 @@ const Hero = () => {
             </span>
                     </h2>
                     <p className="text-gray-600 max-w-2xl">
-                        Experienced in Business & Technology Collaboration,
-                        System Design,
-                        Decentralized applications,
-                        Mobile apps development and Most Importantly a <b> <i>Problem Solver</i></b>.
+                        <strong>8+ years</strong> in
+                        <strong> Mobile (Android, Flutter, React Native)</strong> and
+                        <strong> Backend development (Spring Boot, Java/Kotlin, TypeScript)</strong>. Skilled in
+                        <strong> System design</strong>, <strong>Decentralized apps</strong>, and
+                        <strong> DevOps</strong>. Proven to <strong>Lead teams</strong>,
+                        <strong> Architect scalable systems</strong>, and deliver <strong>end-to-end solutions</strong>.
+                        Mentoring engineers and a dedicated
+                        <strong> Problem solver</strong>.
                     </p>
                     <div className="flex flex-wrap gap-4">
                         <Button
