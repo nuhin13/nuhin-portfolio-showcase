@@ -13,19 +13,21 @@ const Skills = () => {
 
   const backendSkills = [
     { name: "Spring Boot (Microservices)", level: "Expert" },
-    { name: "gRPC, Kafka", level: "Advanced" },
-    { name: "Docker & Kubernetes", level: "Advanced" },
+    { name: "gRPC, Kafka", level: "Expert" },
+    { name: "Docker & Kubernetes", level: "Expert" },
     { name: "MySQL, Redis, MongoDb", level: "Advanced" },
-    { name: "CI/CD & GitOps", level: "Advanced" },
+    { name: "CI/CD & GitOps", level: "Expert" },
     { name: "AWS & Cloud Services", level: "Intermediate" },
   ];
 
   const mobileSkills = [
     { name: "Kotlin/ Java", level: "Expert" },
-    { name: "Dart", level: "Advanced" },
-    { name: "Firebase Services", level: "Advanced" },
-    { name: "Clean Architecture", level: "Advanced" },
+    { name: "Dart", level: "Expert" },
+    { name: "Firebase Services", level: "Expert" },
+    { name: "Clean Architecture", level: "Expert" },
+    { name: "Jetpack Compose", level: "Advanced" },
     { name: "Complex UI design", level: "Advanced" },
+    { name: "MVVM", level: "Expert" },
     { name: "Animations", level: "Intermediate" },
   ];
 

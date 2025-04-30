@@ -10,17 +10,17 @@ const Projects = () => {
 
   const categories = [
     { id: "all", name: "All" },
-    { id: "blockchain", name: "Blockchain" },
-    { id: "web", name: "Web Apps" },
+    { id: "system", name: "Full System" },
     { id: "mobile", name: "Mobile" },
+    { id: "web", name: "Backend" },
   ];
 
   const projects = [
     {
       id: 1,
-      title: "Polygon Bridge Explorer",
-      description: "A comprehensive explorer for monitoring and analyzing transactions across the Polygon bridge.",
-      category: "blockchain",
+      title: "sManager: ব্যবসার সুপার অ্যাপ",
+      description: "Super app to manage any business – from daily sales, balance calculations, to digital payments, installment sales, and stock/income reports.",
+      category: "mobile",
       image: "https://polygontechnology.io/wp-content/uploads/2024/10/Ami-Probashi-Case-Study-First-Image.jpg",
       tags: ["React", "Ethereum", "Polygon", "The Graph"],
       link: "https://example.com/project1",
