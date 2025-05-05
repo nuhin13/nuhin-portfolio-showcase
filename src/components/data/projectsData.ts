@@ -52,11 +52,10 @@ export const projects: Project[] = [
         title: "Dizi Cashier",
         description: "Sales, Stock and Account Management Software",
         category: ProjectCategory.MOBILE,
-        image: "https://polygontechnology.io/wp-content/uploads/2023/11/Ranks-Offline-Sales-Tracker-_-Campaign-Solution-Mid-Photo.jpg",
+        image: "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/dizi.png",
         images: [
-            "https://polygontechnology.io/wp-content/uploads/2023/11/Ranks-Offline-Sales-Tracker-_-Campaign-Solution-Mid-Photo.jpg",
-            "https://raw.githubusercontent.com/nuhin13/nuhin13-protfolio/refs/heads/development/img/screenshot/dizi.png",
-            "https://polygontechnology.io/wp-content/uploads/2024/10/Ami-Probashi-Case-Study-First-Image.jpg"
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/dizi.png",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/dizi3.png"
         ],
         tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER, ProjectTag.CACHING_FIRST, ProjectTag.HIVE],
         link: "https://dizicashier.com/",
