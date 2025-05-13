@@ -68,4 +68,421 @@ export const projects: Project[] = [
             "Implemented iOS support to expand the user base",
         ]
     },
+    {
+        id: 4,
+        title: "Sheba.xyz",
+        description: "Sales, Stock and Account Management Software",
+        category: ProjectCategory.MOBILE,
+        image: "/project images/sheba1.png",
+        images: [
+            "/project images/sheba1.png"
+        ],
+        tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER, ProjectTag.CACHING_FIRST, ProjectTag.HIVE],
+        link: "https://dizicashier.com/",
+        playStoreLink: "https://play.google.com/store/apps/details?id=com.dizinova.dizicashier&hl=en&gl=US",
+        fullDescription: "Dizi Cashier is a comprehensive sales, stock, and account management software built with Flutter. The application helps businesses manage their daily operations with features for inventory tracking, sales reporting, and financial management.",
+        contribution: [
+            "Led native to Flutter migration for cross-platform support",
+            "Established best practices guidelines for the development team",
+            "Optimized caching mechanism to improve application performance",
+            "Implemented iOS support to expand the user base",
+        ]
+    },
+    {
+        id: 5,
+        title: "sManager",
+        description: "Sales, Stock and Account Management Software",
+        category: ProjectCategory.MOBILE,
+        image: "/project images/smanager2.png",
+        images: [
+            "/project images/smanager1.jpg",
+            "/project images/smanager2.png",
+            "/project images/smanager3.png"
+        ],
+        tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER, ProjectTag.CACHING_FIRST, ProjectTag.HIVE],
+        link: "https://dizicashier.com/",
+        playStoreLink: "https://play.google.com/store/apps/details?id=com.dizinova.dizicashier&hl=en&gl=US",
+        fullDescription: "Dizi Cashier is a comprehensive sales, stock, and account management software built with Flutter. The application helps businesses manage their daily operations with features for inventory tracking, sales reporting, and financial management.",
+        contribution: [
+            "Led native to Flutter migration for cross-platform support",
+            "Established best practices guidelines for the development team",
+            "Optimized caching mechanism to improve application performance",
+            "Implemented iOS support to expand the user base",
+        ]
+    },
+    {
+        id: 6,
+        title: "sPro",
+        description: "Sales, Stock and Account Management Software",
+        category: ProjectCategory.MOBILE,
+        image: "/project images/spro1.png",
+        images: [
+            "/project images/spro1.png",
+            "/project images/spro2.png"
+        ],
+        tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER, ProjectTag.CACHING_FIRST, ProjectTag.HIVE],
+        link: "https://dizicashier.com/",
+        playStoreLink: "https://play.google.com/store/apps/details?id=com.dizinova.dizicashier&hl=en&gl=US",
+        fullDescription: "Dizi Cashier is a comprehensive sales, stock, and account management software built with Flutter. The application helps businesses manage their daily operations with features for inventory tracking, sales reporting, and financial management.",
+        contribution: [
+            "Led native to Flutter migration for cross-platform support",
+            "Established best practices guidelines for the development team",
+            "Optimized caching mechanism to improve application performance",
+            "Implemented iOS support to expand the user base",
+        ]
+    },
+    {
+        id: 7,
+        title: "digiGo",
+        description: "Sales, Stock and Account Management Software",
+        category: ProjectCategory.MOBILE,
+        image: "/project images/digi1.png",
+        images: [
+            "/project images/digi1.png",
+            "/project images/digi2.png",
+        ],
+        tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER, ProjectTag.CACHING_FIRST, ProjectTag.HIVE],
+        link: "https://dizicashier.com/",
+        playStoreLink: "https://play.google.com/store/apps/details?id=com.dizinova.dizicashier&hl=en&gl=US",
+        fullDescription: "Dizi Cashier is a comprehensive sales, stock, and account management software built with Flutter. The application helps businesses manage their daily operations with features for inventory tracking, sales reporting, and financial management.",
+        contribution: [
+            "Led native to Flutter migration for cross-platform support",
+            "Established best practices guidelines for the development team",
+            "Optimized caching mechanism to improve application performance",
+            "Implemented iOS support to expand the user base",
+        ]
+    },
+    {
+        id: 8,
+        title: "sDelivery",
+        description: "Sales, Stock and Account Management Software",
+        category: ProjectCategory.MOBILE,
+        image: "/project images/sdelivery.png",
+        images: [
+            "/project images/sdelivery.png"
+        ],
+        tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER, ProjectTag.CACHING_FIRST, ProjectTag.HIVE],
+        link: "https://dizicashier.com/",
+        playStoreLink: "https://play.google.com/store/apps/details?id=com.dizinova.dizicashier&hl=en&gl=US",
+        fullDescription: "Dizi Cashier is a comprehensive sales, stock, and account management software built with Flutter. The application helps businesses manage their daily operations with features for inventory tracking, sales reporting, and financial management.",
+        contribution: [
+            "Led native to Flutter migration for cross-platform support",
+            "Established best practices guidelines for the development team",
+            "Optimized caching mechanism to improve application performance",
+            "Implemented iOS support to expand the user base",
+        ]
+    },
+    {
+        id: 9,
+        title: "sBondhu",
+        description: "Sales, Stock and Account Management Software",
+        category: ProjectCategory.MOBILE,
+        image: "/project images/bondhu1.png",
+        images: [
+            "/project images/bondhu1.png"
+        ],
+        tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER, ProjectTag.CACHING_FIRST, ProjectTag.HIVE],
+        link: "https://dizicashier.com/",
+        playStoreLink: "https://play.google.com/store/apps/details?id=com.dizinova.dizicashier&hl=en&gl=US",
+        fullDescription: "Dizi Cashier is a comprehensive sales, stock, and account management software built with Flutter. The application helps businesses manage their daily operations with features for inventory tracking, sales reporting, and financial management.",
+        contribution: [
+            "Led native to Flutter migration for cross-platform support",
+            "Established best practices guidelines for the development team",
+            "Optimized caching mechanism to improve application performance",
+            "Implemented iOS support to expand the user base",
+        ]
+    },
+    {
+        id: 10,
+        title: "Agave",
+        description: "Sales, Stock and Account Management Software",
+        category: ProjectCategory.MOBILE,
+        image: "/project images/agave1.png",
+        images: [
+            "/project images/agave1.png",
+            "/project images/agave2.png",
+            "/project images/agave3.png",
+            "/project images/agave4.png",
+        ],
+        tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER, ProjectTag.CACHING_FIRST, ProjectTag.HIVE],
+        link: "https://dizicashier.com/",
+        playStoreLink: "https://play.google.com/store/apps/details?id=com.dizinova.dizicashier&hl=en&gl=US",
+        fullDescription: "Dizi Cashier is a comprehensive sales, stock, and account management software built with Flutter. The application helps businesses manage their daily operations with features for inventory tracking, sales reporting, and financial management.",
+        contribution: [
+            "Led native to Flutter migration for cross-platform support",
+            "Established best practices guidelines for the development team",
+            "Optimized caching mechanism to improve application performance",
+            "Implemented iOS support to expand the user base",
+        ]
+    },
+    {
+        id: 11,
+        title: "DrugN",
+        description: "Sales, Stock and Account Management Software",
+        category: ProjectCategory.MOBILE,
+        image: "/project images/drugN1.png",
+        images: [
+            "/project images/drugN1.png",
+            "/project images/drugN2.png",
+        ],
+        tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER, ProjectTag.CACHING_FIRST, ProjectTag.HIVE],
+        link: "https://dizicashier.com/",
+        playStoreLink: "https://play.google.com/store/apps/details?id=com.dizinova.dizicashier&hl=en&gl=US",
+        fullDescription: "Dizi Cashier is a comprehensive sales, stock, and account management software built with Flutter. The application helps businesses manage their daily operations with features for inventory tracking, sales reporting, and financial management.",
+        contribution: [
+            "Led native to Flutter migration for cross-platform support",
+            "Established best practices guidelines for the development team",
+            "Optimized caching mechanism to improve application performance",
+            "Implemented iOS support to expand the user base",
+        ]
+    },
+    {
+        id: 12,
+        title: "eDucation",
+        description: "Sales, Stock and Account Management Software",
+        category: ProjectCategory.MOBILE,
+        image: "/project images/education1.png",
+        images: [
+            "/project images/education1.png",
+        ],
+        tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER, ProjectTag.CACHING_FIRST, ProjectTag.HIVE],
+        link: "https://dizicashier.com/",
+        playStoreLink: "https://play.google.com/store/apps/details?id=com.dizinova.dizicashier&hl=en&gl=US",
+        fullDescription: "Dizi Cashier is a comprehensive sales, stock, and account management software built with Flutter. The application helps businesses manage their daily operations with features for inventory tracking, sales reporting, and financial management.",
+        contribution: [
+            "Led native to Flutter migration for cross-platform support",
+            "Established best practices guidelines for the development team",
+            "Optimized caching mechanism to improve application performance",
+            "Implemented iOS support to expand the user base",
+        ]
+    },
+    {
+        id: 13,
+        title: "Knower",
+        description: "Sales, Stock and Account Management Software",
+        category: ProjectCategory.MOBILE,
+        image: "/project images/knower.png",
+        images: [
+            "/project images/knower.png",
+        ],
+        tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER, ProjectTag.CACHING_FIRST, ProjectTag.HIVE],
+        link: "https://dizicashier.com/",
+        playStoreLink: "https://play.google.com/store/apps/details?id=com.dizinova.dizicashier&hl=en&gl=US",
+        fullDescription: "Dizi Cashier is a comprehensive sales, stock, and account management software built with Flutter. The application helps businesses manage their daily operations with features for inventory tracking, sales reporting, and financial management.",
+        contribution: [
+            "Led native to Flutter migration for cross-platform support",
+            "Established best practices guidelines for the development team",
+            "Optimized caching mechanism to improve application performance",
+            "Implemented iOS support to expand the user base",
+        ]
+    },
+    {
+        id: 14,
+        title: "Source?. Manga",
+        description: "Sales, Stock and Account Management Software",
+        category: ProjectCategory.MOBILE,
+        image: "/project images/manga2.png",
+        images: [
+            "/project images/manga1.png",
+            "/project images/manga2.png",
+            "/project images/manga3.png",
+        ],
+        tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER, ProjectTag.CACHING_FIRST, ProjectTag.HIVE],
+        link: "https://dizicashier.com/",
+        playStoreLink: "https://play.google.com/store/apps/details?id=com.dizinova.dizicashier&hl=en&gl=US",
+        fullDescription: "Dizi Cashier is a comprehensive sales, stock, and account management software built with Flutter. The application helps businesses manage their daily operations with features for inventory tracking, sales reporting, and financial management.",
+        contribution: [
+            "Led native to Flutter migration for cross-platform support",
+            "Established best practices guidelines for the development team",
+            "Optimized caching mechanism to improve application performance",
+            "Implemented iOS support to expand the user base",
+        ]
+    },
+    {
+        id: 15,
+        title: "eKYC in ABG Pocket App",
+        description: "Sales, Stock and Account Management Software",
+        category: ProjectCategory.MOBILE,
+        image: "/project images/abg1.jpg",
+        images: [
+            "/project images/abg1.jpg",
+            "/project images/abg2.jpg",
+        ],
+        tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER, ProjectTag.CACHING_FIRST, ProjectTag.HIVE],
+        link: "https://dizicashier.com/",
+        playStoreLink: "https://play.google.com/store/apps/details?id=com.dizinova.dizicashier&hl=en&gl=US",
+        fullDescription: "Dizi Cashier is a comprehensive sales, stock, and account management software built with Flutter. The application helps businesses manage their daily operations with features for inventory tracking, sales reporting, and financial management.",
+        contribution: [
+            "Led native to Flutter migration for cross-platform support",
+            "Established best practices guidelines for the development team",
+            "Optimized caching mechanism to improve application performance",
+            "Implemented iOS support to expand the user base",
+        ]
+    },
+    {
+        id: 16,
+        title: "Beats App",
+        description: "Sales, Stock and Account Management Software",
+        category: ProjectCategory.MOBILE,
+        image: "/project images/beat1.png",
+        images: [
+            "/project images/beat1.png",
+            "/project images/beat2.png",
+        ],
+        tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER, ProjectTag.CACHING_FIRST, ProjectTag.HIVE],
+        link: "https://dizicashier.com/",
+        playStoreLink: "https://play.google.com/store/apps/details?id=com.dizinova.dizicashier&hl=en&gl=US",
+        fullDescription: "Dizi Cashier is a comprehensive sales, stock, and account management software built with Flutter. The application helps businesses manage their daily operations with features for inventory tracking, sales reporting, and financial management.",
+        contribution: [
+            "Led native to Flutter migration for cross-platform support",
+            "Established best practices guidelines for the development team",
+            "Optimized caching mechanism to improve application performance",
+            "Implemented iOS support to expand the user base",
+        ]
+    },
+    {
+        id: 17,
+        title: "Resume Builder SDK",
+        description: "Sales, Stock and Account Management Software",
+        category: ProjectCategory.MOBILE,
+        image: "/project images/resume1.png",
+        images: [
+            "/project images/resume1.png",
+            "/project images/resume2.png",
+        ],
+        tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER, ProjectTag.CACHING_FIRST, ProjectTag.HIVE],
+        link: "https://dizicashier.com/",
+        playStoreLink: "https://play.google.com/store/apps/details?id=com.dizinova.dizicashier&hl=en&gl=US",
+        fullDescription: "Dizi Cashier is a comprehensive sales, stock, and account management software built with Flutter. The application helps businesses manage their daily operations with features for inventory tracking, sales reporting, and financial management.",
+        contribution: [
+            "Led native to Flutter migration for cross-platform support",
+            "Established best practices guidelines for the development team",
+            "Optimized caching mechanism to improve application performance",
+            "Implemented iOS support to expand the user base",
+        ]
+    },
+    {
+        id: 18,
+        title: "Shell BD Apps",
+        description: "Sales, Stock and Account Management Software",
+        category: ProjectCategory.MOBILE,
+        image: "/project images/shell1.png",
+        images: [
+            "/project images/shell1.png",
+            "/project images/shell2.png",
+        ],
+        tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER, ProjectTag.CACHING_FIRST, ProjectTag.HIVE],
+        link: "https://dizicashier.com/",
+        playStoreLink: "https://play.google.com/store/apps/details?id=com.dizinova.dizicashier&hl=en&gl=US",
+        fullDescription: "Dizi Cashier is a comprehensive sales, stock, and account management software built with Flutter. The application helps businesses manage their daily operations with features for inventory tracking, sales reporting, and financial management.",
+        contribution: [
+            "Led native to Flutter migration for cross-platform support",
+            "Established best practices guidelines for the development team",
+            "Optimized caching mechanism to improve application performance",
+            "Implemented iOS support to expand the user base",
+        ]
+    },
+    {
+        id: 19,
+        title: "Shell BD e-Store Website",
+        description: "Sales, Stock and Account Management Software",
+        category: ProjectCategory.MOBILE,
+        image: "/project images/shell-web1.png",
+        images: [
+            "/project images/shell-web1.png",
+            "/project images/shell-web2.png",
+        ],
+        tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER, ProjectTag.CACHING_FIRST, ProjectTag.HIVE],
+        link: "https://dizicashier.com/",
+        playStoreLink: "https://play.google.com/store/apps/details?id=com.dizinova.dizicashier&hl=en&gl=US",
+        fullDescription: "Dizi Cashier is a comprehensive sales, stock, and account management software built with Flutter. The application helps businesses manage their daily operations with features for inventory tracking, sales reporting, and financial management.",
+        contribution: [
+            "Led native to Flutter migration for cross-platform support",
+            "Established best practices guidelines for the development team",
+            "Optimized caching mechanism to improve application performance",
+            "Implemented iOS support to expand the user base",
+        ]
+    },
+    {
+        id: 20,
+        title: "We Grow",
+        description: "Sales, Stock and Account Management Software",
+        category: ProjectCategory.MOBILE,
+        image: "/project images/wegrow1.png",
+        images: [
+            "/project images/wegrow1.png",
+            "/project images/wegrow2.png",
+        ],
+        tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER, ProjectTag.CACHING_FIRST, ProjectTag.HIVE],
+        link: "https://dizicashier.com/",
+        playStoreLink: "https://play.google.com/store/apps/details?id=com.dizinova.dizicashier&hl=en&gl=US",
+        fullDescription: "Dizi Cashier is a comprehensive sales, stock, and account management software built with Flutter. The application helps businesses manage their daily operations with features for inventory tracking, sales reporting, and financial management.",
+        contribution: [
+            "Led native to Flutter migration for cross-platform support",
+            "Established best practices guidelines for the development team",
+            "Optimized caching mechanism to improve application performance",
+            "Implemented iOS support to expand the user base",
+        ]
+    },
+    {
+        id: 21,
+        title: "VWB",
+        description: "A World Food Program project from Department of Women Affairs for vulnerable women in Bangladesh.",
+        category: ProjectCategory.MOBILE,
+        image: "/project images/vwb1.png",
+        images: [
+            "/project images/vwb1.png"
+        ],
+        tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER, ProjectTag.CACHING_FIRST, ProjectTag.HIVE],
+        link: "https://dizicashier.com/",
+        playStoreLink: "https://play.google.com/store/apps/details?id=com.dizinova.dizicashier&hl=en&gl=US",
+        fullDescription: "Dizi Cashier is a comprehensive sales, stock, and account management software built with Flutter. The application helps businesses manage their daily operations with features for inventory tracking, sales reporting, and financial management.",
+        contribution: [
+            "Led native to Flutter migration for cross-platform support",
+            "Established best practices guidelines for the development team",
+            "Optimized caching mechanism to improve application performance",
+            "Implemented iOS support to expand the user base",
+        ]
+    },
+    {
+        id: 22,
+        title: "CyberWise (Phishing Simulation Tool)",
+        description: "A Simple phishing simulation tool to test the security awareness of employees.",
+        category: ProjectCategory.SYSTEM,
+        image: "/project images/cyberwise1.png",
+        images: [
+            "/project images/cyberwise1.png",
+            "/project images/cyberwise2.png",
+        ],
+        tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER, ProjectTag.CACHING_FIRST, ProjectTag.HIVE],
+        link: "https://dizicashier.com/",
+        playStoreLink: "https://play.google.com/store/apps/details?id=com.dizinova.dizicashier&hl=en&gl=US",
+        fullDescription: "Dizi Cashier is a comprehensive sales, stock, and account management software built with Flutter. The application helps businesses manage their daily operations with features for inventory tracking, sales reporting, and financial management.",
+        contribution: [
+            "Led native to Flutter migration for cross-platform support",
+            "Established best practices guidelines for the development team",
+            "Optimized caching mechanism to improve application performance",
+            "Implemented iOS support to expand the user base",
+        ]
+    },
+    {
+        id: 23,
+        title: "Priyojon - Chartered Life",
+        description: "Chartered Life Simple Insurance Management Application.",
+        category: ProjectCategory.SYSTEM,
+        image: "/project images/priyojon1.png",
+        images: [
+            "/project images/priyojon1.png",
+        ],
+        tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER, ProjectTag.CACHING_FIRST, ProjectTag.HIVE],
+        link: "https://dizicashier.com/",
+        playStoreLink: "https://play.google.com/store/apps/details?id=com.dizinova.dizicashier&hl=en&gl=US",
+        fullDescription: "Dizi Cashier is a comprehensive sales, stock, and account management software built with Flutter. The application helps businesses manage their daily operations with features for inventory tracking, sales reporting, and financial management.",
+        contribution: [
+            "Led native to Flutter migration for cross-platform support",
+            "Established best practices guidelines for the development team",
+            "Optimized caching mechanism to improve application performance",
+            "Implemented iOS support to expand the user base",
+        ]
+    },
 ]
