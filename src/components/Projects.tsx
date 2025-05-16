@@ -120,7 +120,7 @@ const Projects = () => {
                       <img
                           src={project.images[currentImageIndex]}
                           alt={`${project.title} - image ${currentImageIndex + 1}`}
-                          className="w-full h-full object-cover"
+                          className="w-full h-full object-contain"
                       />
                     </div>
 

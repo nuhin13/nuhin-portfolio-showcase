@@ -4,11 +4,14 @@ export enum ProjectCategory {
   MOBILE = "mobile",
   WEB = "web",
   CONSULTANCY = "consultancy",
+  OTHERS = "Others",
   BLOCKCHAIN = "blockchain"
 }
 
 export enum ProjectTag {
   REACT = "React",
+  Expo = "Expo",
+  FLUX = "Flux",
   ETHEREUM = "Ethereum",
   POLYGON = "Polygon",
   THE_GRAPH = "The Graph",
@@ -32,14 +35,24 @@ export enum ProjectTag {
   CRYPTO_APIS = "Crypto APIs",
   REAL_TIME_DATA = "Real-time Data",
   NATIVE_ANDROID = "Native Android",
+  GPS_Tracking = "GPS Tracking",
   CACHING = "Caching",
+  TOP_UP = "Top Up",
+
   CACHING_FIRST = "Caching First",
   FLUTTER = "Flutter",
+  Springboot = "Spring Boot",
+  Nodejs = "Node js",
+  Microservice = "Microservice",
+  FLUTTER_MIGRATION = "Flutter Migration",
+  Socket = "Socket.io",
   HIVE = "Hive",
+  Isolation = "Isolation",
   SqlLite = "SqlLite",
   MySql = "MySql",
   Redis = "Redis",
   NATIVE_FLUTTER_COMMUNICATION = "Native Flutter Communication",
+  MULTI_MODULE = "Multi Module",
 }
 
 export interface Project {
@@ -69,4 +82,5 @@ export const categories: CategoryOption[] = [
     { id: ProjectCategory.MOBILE, name: "Mobile" },
     { id: ProjectCategory.WEB, name: "Backend" },
     { id: ProjectCategory.CONSULTANCY, name: "Consultancy" },
+    { id: ProjectCategory.OTHERS, name: "Others" },
 ];
