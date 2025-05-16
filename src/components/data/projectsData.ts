@@ -265,8 +265,7 @@ export const projects: Project[] = [
             ProjectTag.Redis,
             ProjectTag.MySql
         ],
-        fullDescription: "Agave is a full-featured plant e-commerce platform designed for the Japanese market, enabling users to buy and sell a wide variety of plants, from rare cacti to popular houseplants. The platform offers a rich catalog, 24/7 purchasing, a vibrant online community, competitive pricing, and detailed plant care information. Built with a microservices architecture, the system leverages Spring Boot, Node.js, and Laravel for backend services, with Flutter powering the mobile apps. Deployed on AWS with EC2, RDS, S3, Route53, and load balancing, and utilizing Kubernetes for development environments. The platform ensures scalability, reliability, and a seamless user experience.",
-        contribution: [
+        fullDescription: "Plant E-commerce\n\nThis platform enables users to conveniently buy and sell a wide variety of plants, from rare cacti to popular houseplants. Key features include a rich selection, 24/7 purchasing, easy checkout, an online community, and competitive pricing. Consumers benefit from convenience, diversity, price comparison, and access to plant care information. Challenges include physical inspection, shipping risks, and quality assurance. With ongoing technological advancements, features like virtual/augmented reality and improved shipping will further enhance the plant e-commerce experience.",        contribution: [
             "Led a cross-functional team of 10 from project inception to deployment",
             "Architected and developed backend microservices using Spring Boot, Node.js, and Laravel",
             "Oversaw deployment and infrastructure on AWS (EC2, RDS, S3, Route53, Load Balancer)",
