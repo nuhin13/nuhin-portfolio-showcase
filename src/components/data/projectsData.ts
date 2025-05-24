@@ -6,11 +6,11 @@ export const projects: Project[] = [
         title: "sManager: ব্যবসার সুপার অ্যাপ",
         description: "A business management app for tracking sales, payments, installments, and reports.",
         category: ProjectCategory.MOBILE,
-        image: "/project images/smanager2.png",
+        image: "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/smanager2.png",
         images: [
-            "/project images/smanager1.jpg",
-            "/project images/smanager2.png",
-            "/project images/smanager3.png"
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/smanager1.jpg",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/smanager2.png",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/smanager3.png"
         ],
         tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER,
             ProjectTag.NATIVE_FLUTTER_COMMUNICATION, ProjectTag.CACHING_FIRST, ProjectTag.HIVE, ProjectTag.CACHING],
@@ -30,9 +30,9 @@ export const projects: Project[] = [
         title: "Sheba.xyz",
         description: "Your personal assistant app for ordering any service, anytime.",
         category: ProjectCategory.MOBILE,
-        image: "/project images/sheba1.png",
+        image: "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/sheba1.png",
         images: [
-            "/project images/sheba1.png"
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/sheba1.png"
         ],
         tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER, ProjectTag.CACHING_FIRST, ProjectTag.HIVE, ProjectTag.Isolation],
         link: "https://www.sheba.xyz/",
@@ -53,10 +53,10 @@ export const projects: Project[] = [
         title: "sPro",
         description: "Resource app for Sheba.xyz service providers to manage and monitor their tasks.",
         category: ProjectCategory.MOBILE,
-        image: "/project images/spro1.png",
+        image: "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/spro1.png",
         images: [
-            "/project images/spro1.png",
-            "/project images/spro2.png"
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/spro1.png",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/spro2.png"
         ],
         tags: [
             ProjectTag.FLUTTER,
@@ -79,10 +79,10 @@ export const projects: Project[] = [
         title: "digiGo",
         description: "HR management tool for attendance, leave, payroll, and employee management.",
         category: ProjectCategory.MOBILE,
-        image: "/project images/digi1.png",
+        image: "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/digi1.png",
         images: [
-            "/project images/digi1.png",
-            "/project images/digi2.png",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/digi1.png",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/digi2.png",
         ],
         tags: [
             ProjectTag.FLUTTER,
@@ -106,9 +106,9 @@ export const projects: Project[] = [
         title: "sDelivery",
         description: "A delivery system app with real-time GPS tracking and route optimization.",
         category: ProjectCategory.MOBILE,
-        image: "/project images/sdelivery.png",
+        image: "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/sdelivery.png",
         images: [
-            "/project images/sdelivery.png"
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/sdelivery.png"
         ],
         tags: [
             ProjectTag.NATIVE_ANDROID,
@@ -129,9 +129,9 @@ export const projects: Project[] = [
         title: "sBondhu",
         description: "A reselling and referral app for small and medium businesses in Bangladesh.",
         category: ProjectCategory.MOBILE,
-        image: "/project images/bondhu1.png",
+        image: "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/bondhu1.png",
         images: [
-            "/project images/bondhu1.png"
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/bondhu1.png"
         ],
         tags: [
             ProjectTag.FLUTTER,
@@ -179,9 +179,9 @@ export const projects: Project[] = [
         title: "Knower",
         description: "Influencer engagement platform for shop and restaurant campaigns.",
         category: ProjectCategory.MOBILE,
-        image: "/project images/knower.png",
+        image: "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/knower.png",
         images: [
-            "/project images/knower.png",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/knower.png",
         ],
         tags: [
             ProjectTag.FLUTTER,
@@ -202,10 +202,10 @@ export const projects: Project[] = [
         title: "DrugN",
         description: "NFT-based medication tracking web app for a Japanese startup.",
         category: ProjectCategory.MOBILE,
-        image: "/project images/drugN1.png",
+        image: "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/drugN1.png",
         images: [
-            "/project images/drugN1.png",
-            "/project images/drugN2.png",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/drugN1.png",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/drugN2.png",
         ],
         tags: [
             ProjectTag.REACT,
@@ -226,9 +226,9 @@ export const projects: Project[] = [
         title: "AWARENESS動画アプリ",
         description: "E-learning video app for children in Japan, available on Apple Store.",
         category: ProjectCategory.MOBILE,
-        image: "/project images/education1.png",
+        image: "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/education1.png",
         images: [
-            "/project images/education1.png",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/education1.png",
         ],
         tags: [
             ProjectTag.REACT_NATIVE,
@@ -250,12 +250,12 @@ export const projects: Project[] = [
         title: "Agave",
         description: "Comprehensive plant e-commerce platform for the Japanese market.",
         category: ProjectCategory.MOBILE,
-        image: "/project images/agave1.png",
+        image: "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/agave1.png",
         images: [
-            "/project images/agave1.png",
-            "/project images/agave2.png",
-            "/project images/agave3.png",
-            "/project images/agave4.png",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/agave1.png",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/agave2.png",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/agave3.png",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/agave4.png",
         ],
         tags: [
             ProjectTag.Springboot,
@@ -280,11 +280,11 @@ export const projects: Project[] = [
         title: "Source?. Manga",
         description: "Sales, Stock and Account Management Software",
         category: ProjectCategory.MOBILE,
-        image: "/project images/manga2.png",
+        image: "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/manga2.png",
         images: [
-            "/project images/manga1.png",
-            "/project images/manga2.png",
-            "/project images/manga3.png",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/manga1.png",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/manga2.png",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/manga3.png",
         ],
         tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER, ProjectTag.CACHING_FIRST, ProjectTag.HIVE],
         link: "https://dizicashier.com/",
@@ -302,10 +302,10 @@ export const projects: Project[] = [
         title: "eKYC in ABG Pocket App",
         description: "Sales, Stock and Account Management Software",
         category: ProjectCategory.MOBILE,
-        image: "/project images/abg1.jpg",
+        image: "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/abg1.jpg",
         images: [
-            "/project images/abg1.jpg",
-            "/project images/abg2.jpg",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/abg1.jpg",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/abg2.jpg",
         ],
         tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER, ProjectTag.CACHING_FIRST, ProjectTag.HIVE],
         link: "https://dizicashier.com/",
@@ -323,10 +323,10 @@ export const projects: Project[] = [
         title: "Beats App",
         description: "A music sharing social media app with real-time music playback and sharing features.",
         category: ProjectCategory.OTHERS,
-        image: "/project images/beat1.png",
+        image: "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/beat1.png",
         images: [
-            "/project images/beat1.png",
-            "/project images/beat2.png",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/beat1.png",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/beat2.png",
         ],
         tags: [
             ProjectTag.NATIVE_ANDROID,
@@ -349,10 +349,10 @@ export const projects: Project[] = [
         title: "Resume Builder SDK (Ami Probashi)",
         description: "Automatic resume builder module for the Ami Probashi app.",
         category: ProjectCategory.MOBILE,
-        image: "/project images/resume1.png",
+        image: "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/resume1.png",
         images: [
-            "/project images/resume1.png",
-            "/project images/resume2.png",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/resume1.png",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/resume2.png",
         ],
         tags: [
             ProjectTag.NATIVE_ANDROID,
@@ -375,10 +375,10 @@ export const projects: Project[] = [
         title: "Shell BD Apps",
         description: "Sales, Stock and Account Management Software",
         category: ProjectCategory.MOBILE,
-        image: "/project images/shell1.png",
+        image: "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/shell1.png",
         images: [
-            "/project images/shell1.png",
-            "/project images/shell2.png",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/shell1.png",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/shell2.png",
         ],
         tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER, ProjectTag.CACHING_FIRST, ProjectTag.HIVE],
         link: "https://dizicashier.com/",
@@ -396,10 +396,10 @@ export const projects: Project[] = [
         title: "Shell BD e-Store Website",
         description: "Sales, Stock and Account Management Software",
         category: ProjectCategory.MOBILE,
-        image: "/project images/shell-web1.png",
+        image: "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/shell-web1.png",
         images: [
-            "/project images/shell-web1.png",
-            "/project images/shell-web2.png",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/shell-web1.png",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/shell-web2.png",
         ],
         tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER, ProjectTag.CACHING_FIRST, ProjectTag.HIVE],
         link: "https://dizicashier.com/",
@@ -417,10 +417,10 @@ export const projects: Project[] = [
         title: "We Gro",
         description: "Sales, Stock and Account Management Software",
         category: ProjectCategory.MOBILE,
-        image: "/project images/wegrow1.png",
+        image: "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/wegrow1.png",
         images: [
-            "/project images/wegrow1.png",
-            "/project images/wegrow2.png",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/wegrow1.png",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/wegrow2.png",
         ],
         tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER, ProjectTag.CACHING_FIRST, ProjectTag.HIVE],
         link: "https://dizicashier.com/",
@@ -438,9 +438,9 @@ export const projects: Project[] = [
         title: "VWB",
         description: "A World Food Program project from Department of Women Affairs for vulnerable women in Bangladesh.",
         category: ProjectCategory.MOBILE,
-        image: "/project images/vwb1.png",
+        image: "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/vwb1.png",
         images: [
-            "/project images/vwb1.png"
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/vwb1.png"
         ],
         tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER, ProjectTag.CACHING_FIRST, ProjectTag.HIVE],
         link: "https://dizicashier.com/",
@@ -458,10 +458,10 @@ export const projects: Project[] = [
         title: "CyberWise (Phishing Simulation Tool)",
         description: "A Simple phishing simulation tool to test the security awareness of employees.",
         category: ProjectCategory.SYSTEM,
-        image: "/project images/cyberwise1.png",
+        image: "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/cyberwise1.png",
         images: [
-            "/project images/cyberwise1.png",
-            "/project images/cyberwise2.png",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/cyberwise1.png",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/cyberwise2.png",
         ],
         tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER, ProjectTag.CACHING_FIRST, ProjectTag.HIVE],
         link: "https://dizicashier.com/",
@@ -479,9 +479,9 @@ export const projects: Project[] = [
         title: "Priyojon - Chartered Life",
         description: "Insurance management app for Chartered Life, built with MVVM architecture.",
         category: ProjectCategory.SYSTEM,
-        image: "/project images/priyojon1.png",
+        image: "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/priyojon1.png",
         images: [
-            "/project images/priyojon1.png",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/priyojon1.png",
         ],
         tags: [
             ProjectTag.NATIVE_ANDROID,
