@@ -211,7 +211,7 @@ export const projects: Project[] = [
             ProjectTag.REACT,
             ProjectTag.Expo
         ],
-        webLink: "https://app.drugn.life/",
+        link: "https://app.drugn.life/",
         fullDescription: "DrugN is a React Native Web app for a Japanese startup, providing NFTs to users for submitting daily medication data. Managed a distributed team across three countries, contributed to UI design, and project management. The app is built with React Native and targets web only.",
         contribution: [
             "Designed and implemented core UI components for the web app",
@@ -234,7 +234,7 @@ export const projects: Project[] = [
             ProjectTag.REACT_NATIVE,
             ProjectTag.FLUX,
         ],
-        webLink: "https://www.awareness.co.jp/app/index.html",
+        link: "https://www.awareness.co.jp/app/index.html",
         appleStoreLink: "https://apps.apple.com/jp/app/awareness%E5%8B%95%E7%94%BB%E3%82%A2%E3%83%97%E3%83%AA/id1517787895?platform=ipad",
         fullDescription: "AWARENESS動画アプリ is an E-learning app for children in Japan, built with React Native and Expo. Features include video playback with picture-in-picture mode, API integration with axios, and efficient pagination for large data sets. Available exclusively on the Apple Store.",
         contribution: [
