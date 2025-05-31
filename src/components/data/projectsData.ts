@@ -495,5 +495,52 @@ export const projects: Project[] = [
             "Handled background data fetching and synchronization tasks",
             "Ensured smooth user experience and robust performance"
         ]
+    },
+    {
+        id: 24,
+        title: "Shukhee & Shukhee Expert Apps",
+        description: "E-health platform by GDHS connecting patients and providers for easy care.",
+        category: ProjectCategory.SYSTEM,
+        image: "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/shukhee-1.webp",
+        images: [
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/shukhee-4.png",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/shukhee-2.png",
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/shukhee-3.png",
+        ],
+        tags: [
+            ProjectTag.FLUTTER,
+        ],
+        link: "https://shukhee.com/",
+        playStoreLink: "https://play.google.com/store/apps/developer?id=GTT-DIGITAL+HEALTHCARE+SOLUTIONS",
+        fullDescription: "Shukhee is a pioneering e-health platform launched by Grameen Digital Healthcare Solutions (GDHS). Our team comprises experienced healthcare professionals, technologists, and customer service experts who are passionate about making healthcare accessible to all. We are committed to leveraging technology to bridge the gap between patients and healthcare providers, making it easier for you to manage your health.",
+        contribution: [
+            "Developed dynamic form handling for 50+ input fields in a single component",
+            "Implemented MVVM architecture for maintainable and scalable code",
+            "Integrated payment gateway for seamless transactions",
+            "Handled background data fetching and synchronization tasks",
+            "Ensured smooth user experience and robust performance"
+        ]
+    },
+    {
+        id: 25,
+        title: "Paperless",
+        description: "Robust payment gateway for Paperless Limited",
+        category: ProjectCategory.SYSTEM,
+        image: "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/paperless.png",
+        images: [
+            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/paperless-1.png",
+        ],
+        tags: [
+            ProjectTag.FLUTTER,
+        ],
+        link: "https://www.paperlessltd.com/",
+        fullDescription: "Paperless is a robust payment gateway solution developed for Paperless Limited, designed to facilitate secure and efficient transactions. The platform supports various payment methods and integrates seamlessly with existing systems.",
+        contribution: [
+            "Developed dynamic form handling for 50+ input fields in a single component",
+            "Implemented MVVM architecture for maintainable and scalable code",
+            "Integrated payment gateway for seamless transactions",
+            "Handled background data fetching and synchronization tasks",
+            "Ensured smooth user experience and robust performance"
+        ]
     }
 ]
