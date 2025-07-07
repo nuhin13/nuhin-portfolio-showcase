@@ -463,44 +463,46 @@ export const projects: Project[] = [
             "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/cyberwise1.png",
             "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/cyberwise2.png",
         ],
-        tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER, ProjectTag.CACHING_FIRST, ProjectTag.HIVE],
-        link: "https://dizicashier.com/",
-        playStoreLink: "https://play.google.com/store/apps/details?id=com.dizinova.dizicashier&hl=en&gl=US",
-        fullDescription: "Dizi Cashier is a comprehensive sales, stock, and account management software built with Flutter. The application helps businesses manage their daily operations with features for inventory tracking, sales reporting, and financial management.",
+        tags: [ProjectTag.GRPC, ProjectTag.Springboot, ProjectTag.go, ProjectTag.goPhish, ProjectTag.LMS],
+        link: "https://wlp.dev-polygontech.xyz/",
+        fullDescription: "CyberWise is a security awareness platform, similar to Wizer and KnowBe4, that helps organizations assess and improve employee resilience against phishing attacks. It enables realistic phishing simulations, automated reporting, and targeted training via a built-in LMS. Built on a microservice architecture with gRPC and GoPhish integration, CyberWise streamlines campaign management and security training.",
         contribution: [
-            "Led native to Flutter migration for cross-platform support",
-            "Established best practices guidelines for the development team",
-            "Optimized caching mechanism to improve application performance",
-            "Implemented iOS support to expand the user base",
+            "Led the project as both Project Lead and Team Lead, including client demos for banks and organizations",
+            "Designed and implemented a full-phase LMS system",
+            "Architected the solution using Microservice Architecture (Go, Java Spring Boot, Kotlin Spring Boot)",
+            "Implemented gRPC protocol for efficient inter-service communication",
+            "Applied Command design pattern for modular and maintainable code",
+            "Integrated and contributed to open-source GoPhish for email phishing campaigns",
+            "Handled SMTP protocol for email phishing and automated report generation"
         ]
     },
     {
         id: 23,
         title: "Priyojon - Chartered Life",
         description: "Insurance management app for Chartered Life, built with MVVM architecture.",
-        category: ProjectCategory.SYSTEM,
+        category: ProjectCategory.MOBILE,
         image: "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/priyojon1.png",
         images: [
             "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/priyojon1.png",
         ],
         tags: [
-            ProjectTag.NATIVE_ANDROID,
+            ProjectTag.NATIVE_ANDROID, ProjectTag.CACHING, ProjectTag.MVVM
         ],
         playStoreLink: "https://play.google.com/store/apps/details?id=clil.sales.priyojonpro",
-        fullDescription: "Priyojon is a simple insurance management application for Chartered Life, developed as a native Android app. The project follows MVVM architecture, supports dynamic forms with 50+ input fields in a single view, background data fetching, and payment gateway integration. Built with Kotlin and Navigation Component.",
+        fullDescription: "Priyojon is a simple insurance management application for Chartered Life, developed as a native Android app. The project follows MVVM architecture, supports dynamic forms with 20+ input fields in a single view, background data fetching. Built with Kotlin and Navigation Component.",
         contribution: [
-            "Developed dynamic form handling for 50+ input fields in a single component",
-            "Implemented MVVM architecture for maintainable and scalable code",
-            "Integrated payment gateway for seamless transactions",
-            "Handled background data fetching and synchronization tasks",
-            "Ensured smooth user experience and robust performance"
+            "Delivered as a contractual project for an insurance company to collect customer data",
+            "Developed two separate apps for customer and company, each with unique complexities",
+            "Followed MVVM architecture for maintainable and scalable code",
+            "Handled 20+ input fields in a single screen with optimized performance and robust validation",
+            "Managed complex JSON data formats for backend integration"
         ]
     },
     {
         id: 24,
         title: "Shukhee & Shukhee Expert Apps",
         description: "E-health platform by GDHS connecting patients and providers for easy care.",
-        category: ProjectCategory.SYSTEM,
+        category: ProjectCategory.MOBILE,
         image: "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/shukhee-1.webp",
         images: [
             "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/shukhee-4.png",
@@ -514,9 +516,8 @@ export const projects: Project[] = [
         playStoreLink: "https://play.google.com/store/apps/developer?id=GTT-DIGITAL+HEALTHCARE+SOLUTIONS",
         fullDescription: "Shukhee is a pioneering e-health platform launched by Grameen Digital Healthcare Solutions (GDHS). Our team comprises experienced healthcare professionals, technologists, and customer service experts who are passionate about making healthcare accessible to all. We are committed to leveraging technology to bridge the gap between patients and healthcare providers, making it easier for you to manage your health.",
         contribution: [
-            "Developed dynamic form handling for 50+ input fields in a single component",
-            "Implemented MVVM architecture for maintainable and scalable code",
-            "Integrated payment gateway for seamless transactions",
+            "Built a dynamic home page in Flutter for flexible content rendering",
+            "Integrated Agora VideoUIKit for real-time video calling in both patient and doctor apps",
             "Handled background data fetching and synchronization tasks",
             "Ensured smooth user experience and robust performance"
         ]
@@ -531,14 +532,18 @@ export const projects: Project[] = [
             "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/paperless-1.png",
         ],
         tags: [
-            ProjectTag.FLUTTER,
+            ProjectTag.FLUTTER, ProjectTag.Kafka, ProjectTag.Microservice
         ],
         link: "https://www.paperlessltd.com/",
         fullDescription: "Paperless is a robust payment gateway solution developed for Paperless Limited, designed to facilitate secure and efficient transactions. The platform supports various payment methods and integrates seamlessly with existing systems.",
         contribution: [
+            "Set up the initial project architecture and infrastructure",
+            "Integrated event-driven architecture using Kafka for service-to-service communication",
+            "Managed a multi-stack backend (Laravel, Node.js, Spring Boot)",
+            "Guided the Flutter team in designing complex floating UI components and secure payment gateway integration",
+            "Ensured robust security practices for payment processing",
             "Developed dynamic form handling for 50+ input fields in a single component",
             "Implemented MVVM architecture for maintainable and scalable code",
-            "Integrated payment gateway for seamless transactions",
             "Handled background data fetching and synchronization tasks",
             "Ensured smooth user experience and robust performance"
         ]
