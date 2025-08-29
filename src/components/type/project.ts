@@ -40,6 +40,7 @@ export enum ProjectTag {
   GPS_Tracking = "GPS Tracking",
   CACHING = "Caching",
   TOP_UP = "Top Up",
+  MVVM = "MVVM",
 
   CACHING_FIRST = "Caching First",
   FLUTTER = "Flutter",
