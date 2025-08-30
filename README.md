@@ -71,3 +71,27 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+
+# Auto Reload Setup
+
+## Node.js Backend
+1. Install nodemon:
+   ```
+   npm install --save-dev nodemon
+   ```
+2. Start development server with auto-reload:
+   ```
+   npm run dev:node
+   ```
+
+## Frontend (React/Vue)
+1. Install vite (if not already):
+   ```
+   npm install --save-dev vite
+   ```
+2. Start development server with auto-reload:
+   ```
+   npm run dev
+   ```
+
+All changes in the project will trigger an automatic reload.
