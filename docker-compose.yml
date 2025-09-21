@@ -2,8 +2,23 @@ version: '3.8'
 services:
   app:
     build: .
-    ports:
-      - "8900:80"
+    container_name: portfolio-app
     restart: unless-stopped
-    environment:
-      - NODE_ENV=production
+    networks:
+      - web-network
+
+  nginx-proxy:
+    image: nginx:alpine
+    container_name: nginx-proxy
+    ports:
+      - "80:80"      # HTTP
+      - "443:443"    # HTTPS (optional)
+    volumes:
+      - ./nginx-conf/default.conf:/etc/nginx/conf.d/default.conf:ro
+    restart: unless-stopped
+    networks:
+      - web-network
+
+networks:
+  web-network:
+    driver: bridge
