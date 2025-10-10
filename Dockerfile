@@ -1,32 +1,31 @@
 # Stage 1: Build the React app
 FROM node:20-alpine AS builder
 
-# Set working directory
 WORKDIR /app
 
-# Install dependencies
-COPY package.json bun.lockb ./ 
-RUN npm install --frozen-lockfile || bun install --frozen-lockfile
+# Copy package files
+COPY package*.json ./
+RUN rm -f package-lock.json && npm install
 
-# Copy source code
+# Copy source and build
 COPY . .
-
-# Build the app for production
 RUN npm run build
 
 # Stage 2: Serve with Nginx
 FROM nginx:alpine
 
-# Copy production build
+# Install curl for health checks
+RUN apk add --no-cache curl
+
+# Copy built app
 COPY --from=builder /app/dist /usr/share/nginx/html
 
-# Copy custom Nginx configuration
-COPY ./nginx-conf/default.conf /etc/nginx/conf.d/default.conf
+# Copy nginx config
+COPY nginx-conf/default.conf /etc/nginx/conf.d/default.conf
 
-# Expose ports
-EXPOSE 80
-EXPOSE 443
+# Remove default nginx config
+RUN rm /etc/nginx/conf.d/default.conf.bak || true
 
-# Start Nginx
+EXPOSE 80 443
+
 CMD ["nginx", "-g", "daemon off;"]
-
