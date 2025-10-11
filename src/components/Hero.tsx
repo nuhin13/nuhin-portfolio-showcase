@@ -14,7 +14,7 @@ const Hero = () => {
                     <h2 className="text-2xl md:text-3xl text-gray-700">
                         Lead Software Engineer at{" "}
                         <span className="text-polygon-primary font-semibold">
-              Polygon Bugi Limited
+              Polygon Technology Limited
             </span>
                     </h2>
                     <p className="text-gray-600 max-w-2xl">

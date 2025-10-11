@@ -8,7 +8,7 @@ const About = () => {
             <div className="container mx-auto">
                 <div className="text-center mb-16 animate-fade-in">
                     <h2 className="text-3xl md:text-4xl font-bold mb-4 text-polygon-secondary">
-                        Bugi Me
+                        About Me
                     </h2>
                     <div className="w-20 h-1 bg-polygon-primary mx-auto mb-8"></div>
                     <p className="max-w-3xl mx-auto text-gray-600">
