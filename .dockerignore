@@ -1,0 +1,21 @@
+node_modules
+.git
+.gitignore
+README.md
+.env*
+!.env.production
+.nyc_output
+coverage
+.coverage
+.docker
+Dockerfile*
+docker-compose*
+.DS_Store
+*.log
+project images
+.idea
+scripts
+nginx-conf/domain-proxy.conf
+.vscode
+dist
+build

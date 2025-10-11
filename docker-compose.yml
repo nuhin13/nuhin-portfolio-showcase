@@ -1,24 +1,51 @@
 version: '3.8'
-services:
-  app:
-    build: .
-    container_name: portfolio-app
-    restart: unless-stopped
-    networks:
-      - web-network
 
-  nginx-proxy:
+services:
+  portfolio-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nuhin-portfolio-app
+    restart: unless-stopped
+    expose:
+      - "80"
+    env_file:
+      - .env.production
+    networks:
+      - portfolio-network
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:80/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+  portfolio-nginx:
     image: nginx:alpine
-    container_name: nginx-proxy
+    container_name: nuhin-portfolio-nginx
     ports:
-      - "80:80"      # HTTP
-      - "443:443"    # HTTPS (optional)
+      - "8080:80"  # Unique port for your portfolio
     volumes:
       - ./nginx-conf/default.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./nginx-conf/nginx.conf:/etc/nginx/nginx.conf:ro
+      - portfolio-logs:/var/log/nginx
     restart: unless-stopped
+    depends_on:
+      portfolio-app:
+        condition: service_healthy
     networks:
-      - web-network
+      - portfolio-network
+    healthcheck:
+      test: ["CMD", "nginx", "-t"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
 
 networks:
-  web-network:
+  portfolio-network:
     driver: bridge
+    name: nuhin-portfolio-network
+
+volumes:
+  portfolio-logs:
+    driver: local
