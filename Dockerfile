@@ -1,9 +1,8 @@
-# Tiny Dockerfile for Vite + React + TypeScript
 FROM node:20-alpine AS builder
 WORKDIR /app
-COPY package.json bun.lockb ./
+COPY package.json package-lock.json ./
 COPY . .
-RUN npm install --frozen-lockfile || bun install --frozen-lockfile
+RUN npm ci --no-audit --prefer-offline
 RUN npm run build
 
 FROM nginx:alpine
