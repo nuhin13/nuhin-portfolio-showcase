@@ -1,5 +1,15 @@
 import {Project, ProjectCategory, ProjectTag} from "../type/project";
 
+export const MINIO_CONFIG = {
+    BASE_URL: process.env.REACT_APP_MINIO_URL || "http://localhost:1901",
+    BUCKET_NAME: "project-images"
+};
+
+
+const getMinIOImageUrl = (imageName: string) =>
+    `${MINIO_CONFIG.BASE_URL}/${MINIO_CONFIG.BUCKET_NAME}/${imageName}`;
+
+
 export const projects: Project[] = [
     {
         id: 1,
@@ -8,9 +18,9 @@ export const projects: Project[] = [
         category: ProjectCategory.MOBILE,
         image: "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/smanager2.png",
         images: [
-            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/smanager1.jpg",
-            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/smanager2.png",
-            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/smanager3.png"
+            getMinIOImageUrl("smanager1.jpg"),
+            getMinIOImageUrl("smanager2.png"),
+            getMinIOImageUrl("smanager3.png")
         ],
         tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER,
             ProjectTag.NATIVE_FLUTTER_COMMUNICATION, ProjectTag.CACHING_FIRST, ProjectTag.HIVE, ProjectTag.CACHING],
@@ -28,11 +38,11 @@ export const projects: Project[] = [
     {
         id: 4,
         title: "Sheba.xyz",
-        description: "Your personal assistant app for ordering any service, anytime.",
+        description: "Your pddddersonal assistant app for ordering any service, anytime.",
         category: ProjectCategory.MOBILE,
-        image: "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/sheba1.png",
+        image: getMinIOImageUrl("sheba1.png"),
         images: [
-            "https://raw.githubusercontent.com/nuhin13/nuhin-portfolio-showcase/refs/heads/main/project%20images/sheba1.png"
+            getMinIOImageUrl("sheba1.png")
         ],
         tags: [ProjectTag.NATIVE_ANDROID, ProjectTag.FLUTTER, ProjectTag.CACHING_FIRST, ProjectTag.HIVE, ProjectTag.Isolation],
         link: "https://www.sheba.xyz/",

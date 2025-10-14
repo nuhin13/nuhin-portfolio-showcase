@@ -1,8 +1,40 @@
 import React from "react";
 import {Card, CardContent} from "@/components/ui/card";
 import {Code, Cpu, Globe} from "lucide-react";
+import { skills } from "./data/skillsData";
 
 const About = () => {
+    // Custom briefcase icon component for Technical Leadership
+    const BriefcaseIcon = () => (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="h-6 w-6 text-polygon-primary"
+        >
+            <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+            <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+            <line x1="6" y1="1" x2="6" y2="4"></line>
+            <line x1="10" y1="1" x2="10" y2="4"></line>
+            <line x1="14" y1="1" x2="14" y2="4"></line>
+        </svg>
+    );
+
+    // Function to render the appropriate icon
+    const renderIcon = (icon: any) => {
+        if (icon === "briefcase") {
+            return <BriefcaseIcon />;
+        }
+        
+        // For Lucide icons
+        const IconComponent = icon;
+        return <IconComponent className="h-6 w-6 text-polygon-primary" />;
+    };
+
     return (
         <section id="about" className="py-20 bg-gray-50 px-4 md:px-0">
             <div className="container mx-auto">
@@ -77,88 +109,21 @@ const About = () => {
                         </h3>
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                            <Card className="border-none shadow-lg hover:shadow-xl transition-shadow">
-                                <CardContent className="p-6">
-                                    <div
-                                        className="bg-polygon-primary/10 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
-                                        <Code className="h-6 w-6 text-polygon-primary"/>
-                                    </div>
-                                    <h4 className="text-xl font-semibold mb-2 text-polygon-secondary">
-                                        Mobile App Development
-                                    </h4>
-                                    <p className="text-gray-600">
-                                        Expert in Android, Flutter, React Native & iOS native development with 6+ years
-                                        of experience
-                                        delivering production-ready apps.
-                                    </p>
-                                </CardContent>
-                            </Card>
-
-                            <Card className="border-none shadow-lg hover:shadow-xl transition-shadow">
-                                <CardContent className="p-6">
-                                    <div
-                                        className="bg-polygon-primary/10 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
-                                        <Globe className="h-6 w-6 text-polygon-primary"/>
-                                    </div>
-                                    <h4 className="text-xl font-semibold mb-2 text-polygon-secondary">
-                                        Backend Development
-                                    </h4>
-                                    <p className="text-gray-600">
-                                        Building scalable microservices and robust APIs using Spring Boot with
-                                        Java/Kotlin and TypeScript across cross-functional teams.
-
-                                    </p>
-                                </CardContent>
-                            </Card>
-
-                            <Card className="border-none shadow-lg hover:shadow-xl transition-shadow">
-                                <CardContent className="p-6">
-                                    <div
-                                        className="bg-polygon-primary/10 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
-                                        <Cpu className="h-6 w-6 text-polygon-primary"/>
-                                    </div>
-                                    <h4 className="text-xl font-semibold mb-2 text-polygon-secondary">
-                                        System Design & DevOps
-                                    </h4>
-                                    <p className="text-gray-600">
-                                        Designing robust architectures and handling CI/CD, containerization, and
-                                        deployment pipelines for
-                                        complex applications.
-                                    </p>
-                                </CardContent>
-                            </Card>
-
-                            <Card className="border-none shadow-lg hover:shadow-xl transition-shadow">
-                                <CardContent className="p-6">
-                                    <div
-                                        className="bg-polygon-primary/10 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 24 24"
-                                            fill="none"
-                                            stroke="currentColor"
-                                            strokeWidth="2"
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            className="h-6 w-6 text-polygon-primary"
-                                        >
-                                            <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
-                                            <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
-                                            <line x1="6" y1="1" x2="6" y2="4"></line>
-                                            <line x1="10" y1="1" x2="10" y2="4"></line>
-                                            <line x1="14" y1="1" x2="14" y2="4"></line>
-                                        </svg>
-                                    </div>
-                                    <h4 className="text-xl font-semibold mb-2 text-polygon-secondary">
-                                        Technical Leadership
-                                    </h4>
-                                    <p className="text-gray-600">
-                                        Leading multi-disciplinary teams, mentoring engineers, and driving delivery,
-                                        growth, and innovation
-                                        through ownership and collaboration.
-                                    </p>
-                                </CardContent>
-                            </Card>
+                            {skills.map((skill) => (
+                                <Card key={skill.id} className="border-none shadow-lg hover:shadow-xl transition-shadow">
+                                    <CardContent className="p-6">
+                                        <div className="bg-polygon-primary/10 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
+                                            {renderIcon(skill.icon)}
+                                        </div>
+                                        <h4 className="text-xl font-semibold mb-2 text-polygon-secondary">
+                                            {skill.title}
+                                        </h4>
+                                        <p className="text-gray-600">
+                                            {skill.description}
+                                        </p>
+                                    </CardContent>
+                                </Card>
+                            ))}
                         </div>
                     </div>
                 </div>
