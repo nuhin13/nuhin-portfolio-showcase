@@ -21,25 +21,58 @@ const Contact = () => {
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
-    // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setFormData({
-        name: "",
-        email: "",
-        subject: "",
-        message: ""
+
+    try {
+      const response = await fetch("http://backend:3000/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
       });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        toast({
+          title: "Message Sent!",
+          description: "Thank you for reaching out. I'll get back to you soon.",
+        });
+        setFormData({ name: "", email: "", subject: "", message: "" });
+      } else {
+        throw new Error(data.error || "Failed to send message");
+      }
+    } catch (error) {
       toast({
-        title: "Message Sent!",
-        description: "Thank you for reaching out. I'll get back to you soon.",
+        title: "Error",
+        description: error.message || "Failed to send message",
+        variant: "destructive",
       });
-    }, 1500);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
+
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   setIsSubmitting(true);
+  //
+  //   // Simulate form submission
+  //   setTimeout(() => {
+  //     setIsSubmitting(false);
+  //     setFormData({
+  //       name: "",
+  //       email: "",
+  //       subject: "",
+  //       message: ""
+  //     });
+  //     toast({
+  //       title: "Message Sent!",
+  //       description: "Thank you for reaching out. I'll get back to you soon.",
+  //     });
+  //   }, 1500);
+  // };
 
   const contactInfo = [
     {
@@ -68,7 +101,7 @@ const Contact = () => {
           </h2>
           <div className="w-20 h-1 bg-polygon-primary mx-auto mb-8"></div>
           <p className="max-w-3xl mx-auto text-gray-600">
-            Have a project in mind or want to discuss a potential collaboration? Feel free to reach out. I'm always open to new opportunities.
+            aaa a project in mind or want to discuss a potential collaboration? Feel free to reach out. I'm always open to new opportunities.
           </p>
         </div>
 
@@ -113,7 +146,7 @@ const Contact = () => {
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
                 </a>
                 <a
-                  href="https://linkedin.com/in/nuhin-chowdhury"
+                  href="https://www.linkedin.com/in/nuhin13/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-white p-3 rounded-full shadow-md text-gray-700 hover:text-polygon-primary transition-colors"
